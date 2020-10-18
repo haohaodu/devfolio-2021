@@ -12,7 +12,7 @@ const App = (props: any) => {
         <SideBar />
         <Switch>
           <Route path="/" exact component={HomeScreen} />
-          <Route path="/projects" exact component={ProjectsScreen} />
+          <Route path="/project" exact component={ProjectsScreen} />
           {/* <Route path="/work" exact component={NonProfitScreen} />
           <Route path="/blog" exact component={OurTeamScreen} />
           <Route path="/moments" exact component={AboutScreen} /> */}
