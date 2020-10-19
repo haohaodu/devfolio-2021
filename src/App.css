@@ -1,7 +1,12 @@
+html{
+    font-family: "Josefin Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+}
+
 .site-container{
     flex-direction: row;
     display: flex;
-    background: orange; 
     margin-right: 4%;
     margin-left: 4%;
 }
