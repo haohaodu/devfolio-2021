@@ -8,7 +8,6 @@
 .page{
     width: 75%;
     justify-content: flex-start;
-    height: 600px;
     flex-direction: column;
     display: flex;
 }

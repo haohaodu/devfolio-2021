@@ -5,8 +5,9 @@ const SideBar = (props) => {
     return (
         <div className="sidebar-container">
             <h2>HaoHao Du</h2>
-            <a href="/">Home</a>
-            <a href="/project">Projects</a>
+            <a href="/"><strong>Home</strong></a>
+            <a href="/project"><strong>Projects</strong></a>
+            <a href="/cuHacking">CuHacking 2020</a>
         </div>
     )
 }
