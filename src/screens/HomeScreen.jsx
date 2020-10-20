@@ -27,8 +27,8 @@ const HomeScreen = () => {
                     <div className="mast-details">
                         {/* <img src={haohao} style={{ width: "20%", height: "auto", borderRadius: "25" }} alt="" /> */}
 
-                        <h1>Hi, I'm HaoHao.</h1>
-                        <strong style={{ textAlign: "center" }}>
+                        <h1 className="h1">Hi, I'm HaoHao.</h1>
+                        <strong className="subH1" style={{ textAlign: "center" }}>
                             {/* <OpeningAnimation /> */}
                             <Typewriter
                                 onInit={(typewriter) => {
