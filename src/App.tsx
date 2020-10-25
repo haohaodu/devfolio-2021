@@ -1,9 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import HomeScreen from "./screens/HomeScreen";
+import HomeScreen from "./screens/HomeScreen.jsx";
 import ProjectsScreen from "./screens/ProjectsScreen";
 import "./App.css"
 import SideBar from './components/SideBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = (props: any) => {
   return (
