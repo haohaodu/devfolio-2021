@@ -54,6 +54,7 @@
     padding-top: 140px;
 }
 .single-project{
+    text-decoration: none;
     background-color: white;
     height:100%;
     display: flex;
@@ -61,6 +62,7 @@
     align-items: center;
     flex-direction: column;
     background-size: cover;
+    cursor: pointer;
 }
 
 .project-cover{
@@ -81,7 +83,7 @@
     align-items: center;
     flex-direction: column;
 }
-.project-title{
+.project-title{ 
     font-size: 26px;
     font-style: normal;
     font-weight: 500;

@@ -53,18 +53,18 @@ const ProjectsScreen = () => {
                 <Container fluid>
                     <Row style={{ height: "300px" }}>
                         <Col className="mt-1 mr-0">
-                            <SingleProject title="iContribute" photo={volunteer} roles="Founder and Tech Lead" />
+                            <SingleProject title="iContribute" photo={volunteer} route={"/icontribute"} roles="Founder and Tech Lead" />
                         </Col>
                         <Col className="mt-1 ml-1">
-                            <SingleProject title="Trackstar" photo={trackstar} roles="Mobile Developer" />
+                            <SingleProject title="Trackstar" photo={trackstar} route={"/"} roles="Mobile Developer" />
                         </Col>
                     </Row>
                     <Row style={{ height: "300px" }}>
                         <Col className="mt-1 mr-0">
-                            <SingleProject title="ACAC" photo={acac} roles="Web Designer and Developer" />
+                            <SingleProject title="ACAC" photo={acac} route={"/"} roles="Web Designer and Developer" />
                         </Col>
                         <Col className="mt-1 ml-1">
-                            <SingleProject title="iBookLite" photo={book} roles="Full Stack Developer" />
+                            <SingleProject title="iBookLite" photo={book} route={"/"} roles="Full Stack Developer" />
                         </Col>
                     </Row>
                 </Container>
