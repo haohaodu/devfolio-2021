@@ -6,3 +6,38 @@
     width: 75%;
     padding-top: 5%;
 }
+.header-two{
+    font-size: 18px;
+    margin-top: .5%;
+}
+.image-container{
+    width: 90%;
+    height: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.image{
+    object-fit: cover;
+    width: 100%;
+    height: 100%; 
+}
+.intro-container{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+    background: pink;
+    font-size: 22px;
+    font-weight: 500;
+}
+.intro-date{
+    margin-right:4%;
+    margin-left:4%;
+    flex:7;
+}
+.intro-text{
+    margin-right:4%;
+    margin-left:4%;
+    flex:15;
+}
