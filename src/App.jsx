@@ -6,7 +6,7 @@ import "./App.css"
 import SideBar from './components/SideBar';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App = (props: any) => {
+const App = (props) => {
   return (
     <Router>
       <div className="site-container">

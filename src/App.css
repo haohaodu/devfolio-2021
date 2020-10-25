@@ -7,7 +7,6 @@ html{
 .site-container{
     flex-direction: row;
     display: flex;
-    background: orange; 
     margin-right: 4%;
     margin-left: 4%;
 }

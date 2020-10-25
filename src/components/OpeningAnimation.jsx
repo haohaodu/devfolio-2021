@@ -11,10 +11,10 @@ const OpeningAnimation = (props) => {
                 opacity: [0.5, 1],
                 scaleX: [0, 1],
                 easing: "easeInOutExpo",
-                duration: 700
+                duration: 1500
             }).add({
                 targets: '.ml5 .line',
-                duration: 600,
+                duration: 1500,
                 easing: "easeOutExpo",
                 translateY: (el, i) => (-0.625 + 0.625 * 2 * i) + "em"
             }).add({
